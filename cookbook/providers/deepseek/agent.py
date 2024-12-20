@@ -10,7 +10,7 @@
 # Open a terminal and run:
 # export DEEPSEEK_API_KEY="your-api-key-here"
 #
-# NOTE: After setting the API key, restart your terminal or environment to apply the changes  by shuting down the terminal and run the script again.
+# NOTE: After setting the API key, restart your terminal or environment to apply the changes  by shuting down the terminal and run the script again. 
 from phi.agent import Agent, RunResponse  # noqa
 from phi.model.deepseek import DeepSeekChat
 from phi.tools.yfinance import YFinanceTools
